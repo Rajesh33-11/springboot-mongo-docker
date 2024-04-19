@@ -1,10 +1,10 @@
 #!/bin/bash
 
 NEXUS_URL=http://35.85.147.67:8081
-MAVEN_REPO=mongo-releases
+MAVEN_REPO=mongo-snapshots
 GROUP_ID=com.mt
 ARTIFACT_ID=spring-boot-mongo
-VERSION=1.0
+VERSION=1.0-SNAPSHOT
 FILE_EXTENSION=jar
 
 # Function to extract the timestamp from the download URL
