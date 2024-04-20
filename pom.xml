@@ -12,7 +12,7 @@
 	</parent>
 	<groupId>com.mt</groupId>
 	<artifactId>spring-boot-mongo</artifactId>
-	<version>1.0</version>
+	<version>1.0-SNAPSHOT</version>
 	<properties>
 		<java.version>1.8</java.version>
 		<spring-boot.version>2.1.5.RELEASE</spring-boot.version>
@@ -38,7 +38,18 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
+	
+        <distributionManagement>
+		        <snapshotRepository>
+		            <id>nexus</id>
+		            <url>http://18.236.72.56:8081/repository/mongo-snapshots/</url>
+		        </snapshotRepository>
+		        <repository>
+		            <id>nexus</id>
+		            <url>http://18.236.72.56:8081/repository/mongo-releases/</url>
+		        </repository>
+    	</distributionManagement>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
