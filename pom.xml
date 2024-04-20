@@ -42,11 +42,11 @@
         <distributionManagement>
 		        <snapshotRepository>
 		            <id>nexus</id>
-		            <url>http://18.236.91.25:8081/repository/mongo-snapshots/</url>
+		            <url>http://18.236.72.56:8081/repository/mongo-snapshots/</url>
 		        </snapshotRepository>
 		        <repository>
 		            <id>nexus</id>
-		            <url>http://18.236.91.25:8081/repository/mongo-releases/</url>
+		            <url>http://18.236.72.56:8081/repository/mongo-releases/</url>
 		        </repository>
     	</distributionManagement>
 	
